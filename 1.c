@@ -9,7 +9,7 @@ int main()
  
    c = a + b;
    d = a - b;
-   printf("Addition of nos are = %d\n",c);
+   printf("Add of nos are = %d\n",c);
    printf("Subtraction of nos are = %d\n",d);
    return 0;
 }
