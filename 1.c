@@ -2,14 +2,14 @@
  
 int main()
 {
-   int a, b, c;
+   int a, b, c, d;
  
    printf("Enter two numbers to add\n");
    scanf("%d%d",&a,&b);
  
    c = a + b;
- 
-   printf("Sum of entered numbers = %d\n",c);
- 
+   d = a - b;
+   printf("Addition of nos are = %d\n",c);
+   printf("Subtraction of nos are = %d\n",d);
    return 0;
 }
